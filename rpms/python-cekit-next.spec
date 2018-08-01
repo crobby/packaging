@@ -149,6 +149,7 @@ cp completion/zsh/_cekit %{buildroot}/%{_datadir}/zsh/site-functions/_cekit
 # This file ends up in py3 subpackage if enabled, otherwise in py2
 %{_bindir}/concreate
 %{_bindir}/cekit
+%{_bindir}/cekit-cache
 
 
 %changelog
