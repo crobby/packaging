@@ -80,7 +80,7 @@ Python 3 version.
 %endif
 
 %prep
-%setup -q -n %{modname}-%{version}-%{release}
+%setup -q -n cekit-develop
 
 %build
 %py2_build
