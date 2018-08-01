@@ -4,7 +4,7 @@
 %global with_python3 1
 %endif
 
-%global modname cekit
+%global modname cekit-next
 
 Name:           python-cekit-next
 Version:        2.1.0
