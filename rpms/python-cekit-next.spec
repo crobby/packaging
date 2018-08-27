@@ -7,7 +7,7 @@
 %global modname cekit-next
 
 Name:           python-cekit-next
-Version:        2.1.0
+Version:        2.2.0
 Conflicts:      python-cekit
 Release:        1
 Summary:        Container image creation tool - upcoming version
@@ -49,7 +49,7 @@ Requires:       python2-colorlog
 Requires:       PyYAML
 Requires:       docker
 Requires:       git
-
+Requires:       bash-completion
 
 %description -n python2-%{modname} %_description
 
