@@ -51,7 +51,7 @@ Requires:       python2-docker
 Requires:       python2-pykwalify
 Requires:       python2-colorlog
 Requires:       PyYAML
-Requires:       docker
+Requires:       docker-ce
 Requires:       git
 Requires:       bash-completion
 
@@ -74,7 +74,7 @@ BuildRequires:  python3-pykwalify
 BuildRequires:  python3-colorlog
 BuildRequires:  python3-jinja2
 Requires:       PyYAML
-Requires:       docker
+Requires:       docker-ce
 Requires:       python3-pykwalify
 Requires:       python3-colorlog
 Requires:       python3-jinja2
