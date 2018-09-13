@@ -98,6 +98,10 @@ ZSH completion.
 %prep
 %setup -q -n cekit-develop
 
+%if 0%{?rhel}
+sed -i 's/docker/docker-py/' requirements.txt
+%endif
+
 %build
 %py2_build
 %if 0%{?with_python3}
