@@ -7,7 +7,7 @@
 %global modname cekit
 
 Name:           python-cekit
-Version:        2.1.3
+Version:        2.1.4
 Obsoletes:      python-concreate
 Provides:       python-concreate
 Conflicts:      python-concreate
